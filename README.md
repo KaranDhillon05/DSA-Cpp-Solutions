@@ -1,20 +1,6 @@
 # DSA C++ Solutions — 500 Curated FAANG Problems
 
-Interview-oriented C++ solutions covering Arrays, Strings, Trees, Graphs, DP, and 20+ core patterns.
 
-**Schedule:** 1 problem per day from **2024-02-01** through **2025-06-14** (500 days).
-
-## Layout
-
-```
-solutions/
-  YYYY/
-    MM/
-      DD_QNNN_problem-slug.cpp
-SCHEDULE.md          # full day → problem calendar
-SOLUTIONS.md         # quick index
-_gen/                # generators (rebuild with python3 _gen/build.py)
-```
 
 ## Topics
 
@@ -34,12 +20,3 @@ _gen/                # generators (rebuild with python3 _gen/build.py)
 | 12 | Hashing & Math | 446–470 | HashMap, Number Theory, Bits |
 | 13 | Design | 471–500 | LRU/LFU, Streams, Tries |
 
-## File header
-
-Each `.cpp` file includes day number, calendar date, problem metadata, and a LeetCode-style `Solution` class (C++17, `#include <bits/stdc++.h>`).
-
-## Rebuild
-
-```bash
-python3 _gen/build.py
-```
